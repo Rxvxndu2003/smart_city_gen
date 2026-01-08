@@ -1,0 +1,18 @@
+{
+  "sample_id": "sample_20251220_093501",
+  "added_at": "2025-12-20T09:35:01.853273",
+  "floor_plan_path": "storage/datasets/house_plans/sample_20251220_093501/floor_plan.png",
+  "model_3d_path": "storage/datasets/house_plans/sample_20251220_093501/model_3d.jpeg",
+  "floor_plan_shape": [
+    512,
+    512,
+    3
+  ],
+  "model_features": {
+    "file_type": ".jpeg",
+    "file_size": 534776
+  },
+  "auto_generated_floorplan": true,
+  "style": "modern",
+  "floors": 2
+}

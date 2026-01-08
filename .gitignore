@@ -1,0 +1,82 @@
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Build outputs
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# ML Models (keep placeholders but ignore large model files if needed)
+# Uncomment if models are too large for git:
+# backend/ml_models/*.pt
+# backend/ml_models/*.pkl
+
+# Generated files
+backend/storage/3d_models/*
+backend/storage/exports/*
+backend/storage/temp/*
+!backend/storage/.gitkeep
+
+# Test coverage
+htmlcov/
+.coverage
+.pytest_cache/
+
+# Docker
+docker-compose.override.yml
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Alembic
+backend/alembic/versions/*.pyc

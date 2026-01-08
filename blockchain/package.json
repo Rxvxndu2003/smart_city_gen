@@ -1,0 +1,35 @@
+{
+  "name": "smart-city-blockchain",
+  "version": "1.0.0",
+  "description": "Blockchain integration for Smart City Planning System",
+  "main": "deploy.js",
+  "scripts": {
+    "compile": "node compile.js",
+    "deploy": "node deploy.js",
+    "deploy:local": "ETHEREUM_RPC_URL=http://localhost:8545 node deploy.js",
+    "balance": "node check-balance.js",
+    "wallet": "node generate-wallet.js",
+    "test": "mocha test/**/*.js"
+  },
+  "keywords": [
+    "ethereum",
+    "blockchain",
+    "smart-contracts",
+    "ipfs",
+    "urban-planning"
+  ],
+  "author": "Smart City Team",
+  "license": "MIT",
+  "dependencies": {
+    "web3": "^4.3.0",
+    "@truffle/hdwallet-provider": "^2.1.15",
+    "dotenv": "^16.3.1",
+    "ipfs-http-client": "^60.0.1",
+    "axios": "^1.6.2"
+  },
+  "devDependencies": {
+    "solc": "^0.8.21",
+    "mocha": "^10.2.0",
+    "chai": "^4.3.10"
+  }
+}

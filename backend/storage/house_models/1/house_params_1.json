@@ -1,0 +1,10 @@
+{
+  "building_width": 10.0,
+  "building_length": 12.0,
+  "building_height": 3.0,
+  "floor_height": 3.0,
+  "floor_count": 1,
+  "total_floor_area": 120.0,
+  "rooms": [],
+  "building_type": "residential_house"
+}

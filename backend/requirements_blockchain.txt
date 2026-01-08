@@ -1,0 +1,13 @@
+# Blockchain Integration Dependencies
+
+# Web3 - Ethereum interaction (compatible with Python 3.14)
+web3>=7.0.0
+
+# Ethereum account management
+eth-account>=0.9.0
+
+# IPFS client (lightweight alternative to ipfs-api)
+httpx>=0.25.0
+
+# For IPFS HTTP client compatibility
+aiofiles>=23.0.0
